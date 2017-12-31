@@ -19,6 +19,10 @@ function pressIt() {
   });
 }
 
+function submitIt() {
+  $().on("submit")
+}
+
 $(document).ready(function(){
 
 getIt();
