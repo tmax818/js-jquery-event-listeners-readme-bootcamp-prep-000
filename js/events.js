@@ -13,11 +13,10 @@ function frameIt() {
 
 function pressIt() {
   $('input').on("keydown", function(key) {
-    {
   if (key.which == 13){
-    alert('enter was pressed');
+    alert('g was pressed');
   }
-  })
+  });
 }
 
 $(document).ready(function(){
